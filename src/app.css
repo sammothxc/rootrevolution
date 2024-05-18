@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-box {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 3px solid #023502;
+    background-color: #d2fad2;
+    border-radius: 12px;
+    max-width: 85%;
+}
+
+.content-box img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+/* Banner message style */
+.banner-message {
+    text-align: center;
+    font-weight: bold;
+    background-color: chartreuse;
+    color: #354A21;
+}
+
+.error-message {
+    background-color: red;
+    color: white;
+}
+
+/* Body styles */
+body {
+    font-family: Poppins, Trebuchet, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styles */
+header {
+    background-color: #354A21;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+/* Navigation styles */
+nav {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem
+}
+
+nav menu {
+    list-style-type: none;
+}
+
+nav menu li {
+    display: inline;
+    margin-right: 2rem;
+}
+
+nav menu li a,
+nav menu li button {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.4s;
+    transition: padding 0.4s
+}
+
+nav menu li a:hover {
+    color: #354A21;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 0.5rem 0.5rem;
+    font-weight: bold;
+    transition: background-color 0.4s;
+    transition: padding 0.4s
+}
+
+/* Main styles */
+main {
+    padding: 2rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.p-login {
+    cursor: pointer;
+}
+
+/* Input styles */
+main input[type="text"],
+main input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Btn styles */
+main button {
+    padding: .8rem 5.5rem;
+    background-color: #083000;
+    font-size: 1rem;
+    color: #fff;
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+main button:hover {
+    background-color: #00b600;
+}
+
+/* Home styles */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.c-box {
+    border: 3px solid #005512;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #defade;
+    min-height: 19rem;
+}
+
+.c-box img {
+    width: 70%;
+    border-radius: 8px;
+}
+
+.c-box button {
+    background-color: #005512;
+    color: #fff;
+    padding: 0.5rem 2;
+    border: none;
+    border-radius: 8px;
+}
+
+.c-box button:hover {
+    background-color: #00b600;
+}
+
+.c-box div {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Campaign styles */
+
+.campaign h5 {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.campaign img {
+    margin-bottom: 1rem;
+    width: 70%;
+    max-width: 100%;
+}
+
+.campaign table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.campaign table th, .campaign table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+.campaign button.donate.small {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+}
+
+/* Account styles */
+
+.account ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-gap: 1rem;
+}
+
+.account ul li {
+    border: 3px solid #005512;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+}
+
+.account ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.account ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.account a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.date {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+#account {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Vertically center the items */
+}
+
+.account-info {
+    order: 2; /* Specify the order to display the account info on the left */
+}
+
+.profile-picture {
+    display: flex;
+    flex-grow: 1;
+    width: 100%; /* Set the width of the profile picture */
+    order: 1; /* Specify the order to display the profile picture on the right */
+}
+
+.img-container {
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    max-width: 73%;
+    margin: 0 auto;
+    align-self: flex-start;
+}
+
+.account button {
+    margin-top: 1.5rem;
+}
+
+.delete-account-btn {
+    background-color: #ff3333; /* Red background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    margin-top: 20px; /* Add some top margin */
+}
+
+.delete-account-btn:hover {
+    background-color: #cc0000; /* Darker red background color on hover */
+}
+
+/* Register and login styles */
+
+.register, .login {
+    padding: 2rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.register h1, .login h1 {
+    margin-bottom: 1rem;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.register p, .login p{
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+
+.input-box {
+    width: 400px;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #233115;
+    color: #fff;
+    padding: .5rem;
+    margin-top: auto;
+}
+
+.content {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    align-items: left;
+}
+
+.footer-right {
+    align-items: right;
+    font-size: 1rem;
+    font-style: poppins-semibold;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.sticky-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+@media only screen and (max-width: 900px) {
+
+    /* Footer styles for mobile devices */
+    footer {
+        padding: 0.25rem;
+    }
+
+    .content {
+        padding: 0.25rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .footer-left {
+        padding-left: 1rem;}
+
+    .footer-right {
+        justify-content: right;
+        padding-right: 1.5rem;
+    }
+
+    .content-box {
+        max-width: 100%;
+    }
+
+    .sticky-footer {
+        position: static;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; /* Ensure it's above other content */
+    }
+}
+
+footer a:hover {
+    color: #354A21;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+/* Font styles */
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
