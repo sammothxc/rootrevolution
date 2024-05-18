@@ -2,16 +2,6 @@
 ### "Growing Change from the Ground Up" (Literally)
 ## Elevator Pitch
 RootRevolution put simply is a seed crowdfunder- the farmer friendly fundraising website that the world has been waiting for. Inspired by my family members who always have leftover seeds and don't know what to do with them, RootRevolution is a crowdfunding-based website where users with a surplus of seeds can donate their unsused seeds towards any cause, whether it be a community-focused or a global movement. That way, you can participate and be a part of something bigger without having to donate costly supplies or spend lots of money. RootRevolution connects you with anyone who has a need for seed, from solo-sowers and school gardens to larger community and global humanitarian organizations so that they can get the supplies they need to make a difference in any way from simply teaching valuable agricultural lessons or fighting hunger by providing food for those who need it most.
-https://startup.rootrevolution.store
-
-## Design
-Each user has their own SeedFeed that shows them campaigns that they could support
-
-![Homescreen](cs260/homescreen.jpg)
-
-Each campaign also gets its own page:
-
-![Campaign](cs260/campaign.jpg)
 
 ## Key Features
 - Users have their own accounts to track their seed donations
