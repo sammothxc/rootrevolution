@@ -2,14 +2,14 @@ import React from 'react';
 import './app.css';
 import { BrowserRouter, NavLink, Route, Routes, useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
-import { About } from './about/about';
-import { Account } from './account/account';
-import { Campaign } from './campaign/campaign';
-import { Home } from './home/home';
-import { Login } from './login/login';
-import { Register } from './register/register';
-import { Seedmap } from './seedmap/seedmap';
-import { StartCampaign } from './start-campaign/start-campaign';
+import { About } from './about';
+import { Account } from './account';
+import { Campaign } from './campaign';
+import { Home } from './home';
+import { Login } from './login';
+import { Register } from './register';
+import { Seedmap } from './seedmap';
+import { StartCampaign } from './start-campaign';
 export default App;
 
 function Header() {
